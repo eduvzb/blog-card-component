@@ -1,0 +1,100 @@
+/* Importar la fuente Figtree en los pesos 500 y 800 */
+@font-face {
+  font-family: 'Figtree';
+  src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-weight: 500 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figtree';
+  src: url('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 500 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figtree';
+  src: url('../assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figtree';
+  src: url('../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Figtree', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.main-card {
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.4rem;
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem;
+    border-width: .1rem;
+    border-color: black;
+    border-style: inset;
+    box-shadow: black 10.95px 10.95px 1px;    
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+}
+.card-image {
+    border-radius: .7rem;
+    width: 100%;
+}
+
+.card-pill {
+    display: flex;
+    .pill {
+        background-color: hsl(47, 88%, 63%);
+        padding: .5rem;
+        border-radius: .5rem;
+        font-weight: bold;
+    }
+}
+
+.card-published {
+    font-size: .9rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.card-text {
+    color: hsl(0, 0%, 42%);
+    line-height: 1.6rem;
+    font-size: 10;
+}
+
+.card-avatar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+
+    img {
+        width: 2.5rem;
+    }
+}
+
