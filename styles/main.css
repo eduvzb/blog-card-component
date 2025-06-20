@@ -84,7 +84,7 @@ body {
 .card-text {
     color: hsl(0, 0%, 42%);
     line-height: 1.6rem;
-    font-size: 10;
+    font-size: 1rem;
 }
 
 .card-avatar {
