@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.6rem;
+    gap: 1.3rem;
 }
 .card-image {
     border-radius: .7rem;
